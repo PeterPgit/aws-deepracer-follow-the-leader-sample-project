@@ -26,7 +26,7 @@ def generate_launch_description():
         executable='object_detection_node',
         name='object_detection_node',
         parameters=[{
-            'DEVICE': 'CPU',
+            'DEVICE': 'MYRIAD',
             'PUBLISH_DISPLAY_OUTPUT': True
         }]
         )
